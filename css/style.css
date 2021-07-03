@@ -1,6 +1,10 @@
+/* Common Css Section Start */
 .container {
     margin-bottom: 80px;
 }
+/* Common Css Section End */
+
+/* Banner Section Start */
 .orange-bg {
     background-color: #FCEAE8;
     border-radius: 10px;
@@ -15,7 +19,79 @@
     background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 9px 25px;
     cursor: pointer;
 }
+/* Banner Section End */
+
+/* Product caterories section start */
+.cat1, .cat2, .cat3 {
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px 20px;
+}
+.cat1 {
+    background-image: linear-gradient(to right, rgb(231, 153, 8) 0%, rgb(247, 188, 79) 100%);
+}
+.cat2 {
+    background-image: linear-gradient(to right, #E9470C 0%, #f37142 100%);
+}
+.cat3 {
+    background-image: linear-gradient(to right, #0909EE 0%, #5656f5 100%);
+}
+.categories img {
+    width: 100px;
+}
+/* Product caterories section end */
+
+/* Product Shoes Section Start */
+.card {
+    border: none;
+    box-shadow: 5px 5px 15px lightgray;
+}
+/* Product Shoes Section End */
+
+/* Product Backpack Section Start */
+.backpack .card img {
+    width: 350px;
+}
+.card-footer {
+    background-color: rgb(236, 234, 234);
+    border-top: none;
+}
+/* Product Backpack Section End */
+
+/* Subscribe Section Start */
+#subscribe {
+    height: 300px;
+    border-radius: 5px;
+}
+#subscribe div .buy-now-button {
+    margin-top: 10px;
+}
+#subscribe div h2 {
+    color: rgb(56, 68, 80);
+}
+#subscribe div h6{
+    color: rgb(151, 147, 147);
+}
+/* Subscribe Section End */
+
+/* Footer Section Start */
+footer {
+    text-align: center;
+    color: rgb(56, 68, 80);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+footer p{
+    margin-bottom: 0;
+}
+footer p b{
+    color: rgb(201, 29, 29);
+}
+footer p span {
+    color: rgb(51, 9, 240);
+}
+/* Footer Section End */
