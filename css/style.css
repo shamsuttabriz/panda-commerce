@@ -3,6 +3,13 @@
     margin-bottom: 80px;
 }
 /* Common Css Section End */
+/* Navbar Section Start */
+.sticky-top {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+/* Navbar Section End */
 
 /* Banner Section Start */
 .orange-bg {
